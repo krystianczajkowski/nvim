@@ -27,3 +27,5 @@ vim.opt.colorcolumn = '80'
 
 vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle)
 vim.keymap.set('n', '<leader>gs', vim.cmd.Git)
+
+vim.g.netrw_browsex_viewer = 'wslview'
